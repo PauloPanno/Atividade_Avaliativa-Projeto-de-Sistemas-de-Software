@@ -1,0 +1,1 @@
+27-05-2022 13:11:03Falha ao realizar operação de: Adição de funcionário Exceção: 27-05-2022 13:11:07Falha ao realizar operação de: Adição de funcionário Exceção: 
