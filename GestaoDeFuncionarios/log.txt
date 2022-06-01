@@ -1,9 +1,0 @@
-27-05-2022 13:11:03Falha ao realizar operação de: Adição de funcionário Exceção: 27-05-2022 13:11:07Falha ao realizar operação de: Adição de funcionário Exceção: 01-06-2022 13:42:14Falha ao realizar operação de: Adição de funcionário Exceção: 01-06-2022 13:47:47 Funcionário: Paulo [Adicionado].
-01-06-2022 13:47:56 Funcionário: Paulo [Visualizado].
-01-06-2022 13:51:18 Funcionário: Paulo [Adicionado].
-01-06-2022 13:51:21Falha ao realizar operação de: Busca Exceção: 01-06-2022 13:51:27 Bônus consultado de: Paulo.
-01-06-2022 13:51:36 Funcionário: Paulo [Visualizado].
-01-06-2022 13:52:05 Salário claculado para o(s) funcionário(s): [
-	Paulo
-]
-01-06-2022 13:52:39 Bônus consultado de: Paulo.
