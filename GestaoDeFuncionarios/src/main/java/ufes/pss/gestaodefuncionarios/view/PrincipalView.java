@@ -68,6 +68,7 @@ public class PrincipalView extends javax.swing.JFrame {
         setResizable(false);
         setSize(new java.awt.Dimension(1600, 900));
 
+        lblFuncionarios.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblFuncionarios.setText("Funcionarios:");
 
         javax.swing.GroupLayout desktopLayout = new javax.swing.GroupLayout(desktop);
@@ -81,10 +82,13 @@ public class PrincipalView extends javax.swing.JFrame {
             .addGap(0, 732, Short.MAX_VALUE)
         );
 
+        lblVersao.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblVersao.setText("Versão:");
 
+        lblPersistencia.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblPersistencia.setText("Persistência:");
 
+        lblLogs.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblLogs.setText("Logs:");
 
         mnuFuncionario.setText("Funcionário");

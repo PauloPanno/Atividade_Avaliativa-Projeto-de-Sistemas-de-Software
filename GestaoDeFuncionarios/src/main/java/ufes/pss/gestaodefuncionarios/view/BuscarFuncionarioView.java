@@ -42,6 +42,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
         btnBonus = new javax.swing.JButton();
         btnNovo = new javax.swing.JButton();
 
+        setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.blue, java.awt.Color.black));
         setTitle("Buscar Funcionário");
 
         lblNome.setText("Nome");
@@ -96,7 +97,7 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
                         .addComponent(txtBusca, javax.swing.GroupLayout.PREFERRED_SIZE, 578, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnBusca)))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

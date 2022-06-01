@@ -69,6 +69,7 @@ public class SistemaDeLogsView extends javax.swing.JInternalFrame {
         rbtTXT = new javax.swing.JRadioButton();
         btnSalvar = new javax.swing.JButton();
 
+        setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.blue, java.awt.Color.black));
         setTitle("Escolha um Sistema de Logs");
 
         rbtJSON.setText("JSON");
@@ -82,7 +83,7 @@ public class SistemaDeLogsView extends javax.swing.JInternalFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(53, Short.MAX_VALUE)
+                .addContainerGap(61, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(rbtJSON)

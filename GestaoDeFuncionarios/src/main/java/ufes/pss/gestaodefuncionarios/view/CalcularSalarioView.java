@@ -43,6 +43,7 @@ public class CalcularSalarioView extends javax.swing.JInternalFrame {
         txtDataBusca = new javax.swing.JFormattedTextField();
         lblDataCalculo = new javax.swing.JLabel();
 
+        setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.blue, java.awt.Color.black));
         setTitle("Calcular Salário");
 
         tblFuncionarios.setModel(new javax.swing.table.DefaultTableModel(
@@ -94,7 +95,7 @@ public class CalcularSalarioView extends javax.swing.JInternalFrame {
                         .addGap(18, 18, 18)
                         .addComponent(btnCalcular))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 723, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

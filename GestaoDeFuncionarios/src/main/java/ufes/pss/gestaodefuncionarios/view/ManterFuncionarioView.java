@@ -60,7 +60,9 @@ public class ManterFuncionarioView extends javax.swing.JInternalFrame {
         lblFormacao = new javax.swing.JLabel();
         cbxFormacao = new javax.swing.JComboBox<>();
 
+        setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.blue, java.awt.Color.black));
         setTitle("Manter Funcionário");
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         lblCargo.setText("Cargo:");
 
@@ -132,7 +134,7 @@ ckbFuncionarioDoMes.addActionListener(new java.awt.event.ActionListener() {
                             .addComponent(lblFaltas)
                             .addGap(18, 18, 18)
                             .addComponent(txtFaltas, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
@@ -148,7 +150,7 @@ ckbFuncionarioDoMes.addActionListener(new java.awt.event.ActionListener() {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtAdmissao, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addComponent(ckbFuncionarioDoMes, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(25, Short.MAX_VALUE))
+                    .addContainerGap(29, Short.MAX_VALUE))
                 .addGroup(layout.createSequentialGroup()
                     .addComponent(btnFechar)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
