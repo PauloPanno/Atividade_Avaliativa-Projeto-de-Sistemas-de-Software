@@ -90,7 +90,7 @@ ckbFuncionarioDoMes.addActionListener(new java.awt.event.ActionListener() {
     }
     });
 
-    btnFechar.setText("Fechar");
+    btnFechar.setText("Cancelar");
 
     btnSalvar.setText("Salvar");
 

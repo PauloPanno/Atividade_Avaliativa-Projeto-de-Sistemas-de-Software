@@ -12,7 +12,7 @@ public class AddBonusRecebidosCadastro {
         bonusGraduacao(funcionario);
         bonusAnosDeServico(funcionario);
         bonusFaltas(funcionario);
-
+ 
     }
 
     private static void bonusFuncionarioDoMes(Funcionario funcionario) {

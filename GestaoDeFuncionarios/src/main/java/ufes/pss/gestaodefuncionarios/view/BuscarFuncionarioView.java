@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JInternalFrame.java to edit this template
  */
 package ufes.pss.gestaodefuncionarios.view;
-
+ 
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
@@ -62,7 +62,12 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
         ));
         jScrollPane1.setViewportView(tblFuncionarios);
 
-        btnFechar.setText("Fechar");
+        btnFechar.setText("Cancelar");
+        btnFechar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFecharActionPerformed(evt);
+            }
+        });
 
         btnVisualizar.setText("Visualizar");
 
@@ -124,6 +129,10 @@ public class BuscarFuncionarioView extends javax.swing.JInternalFrame {
     private void btnBonusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBonusActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnBonusActionPerformed
+
+    private void btnFecharActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFecharActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFecharActionPerformed
 
     public JButton getBtnBonus() {
         return btnBonus;

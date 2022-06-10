@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Bonus {
-
+  
     private String nome;
     private LocalDate data;
     private double valor;

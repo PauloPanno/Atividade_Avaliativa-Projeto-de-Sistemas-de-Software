@@ -71,6 +71,8 @@ public class PrincipalView extends javax.swing.JFrame {
         lblFuncionarios.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         lblFuncionarios.setText("Funcionarios:");
 
+        desktop.setVerifyInputWhenFocusTarget(false);
+
         javax.swing.GroupLayout desktopLayout = new javax.swing.GroupLayout(desktop);
         desktop.setLayout(desktopLayout);
         desktopLayout.setHorizontalGroup(

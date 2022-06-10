@@ -12,7 +12,7 @@ import ufes.pss.gestaodefuncionarios.factory.SistemaDeLogs;
 import ufes.pss.gestaodefuncionarios.model.BonusHistorico;
 import ufes.pss.gestaodefuncionarios.model.Funcionario;
 import ufes.pss.gestaodefuncionarios.utils.CalculaSalario;
-
+  
 public class CalcularSalarioPresenter {
 
     private CalcularSalarioView view;

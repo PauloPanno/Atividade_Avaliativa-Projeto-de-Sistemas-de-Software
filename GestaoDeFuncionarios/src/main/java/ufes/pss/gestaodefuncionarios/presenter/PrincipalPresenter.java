@@ -7,7 +7,7 @@ import ufes.pss.gestaodefuncionarios.collection.FuncionarioCollection;
 import ufes.pss.gestaodefuncionarios.factory.SistemaDeLogs;
 
 public class PrincipalPresenter {
-
+  
     private PrincipalView view;
     private final FuncionarioCollection funcionarios;
     private final SistemaDeLogs logs;

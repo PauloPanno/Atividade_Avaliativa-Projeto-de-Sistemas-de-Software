@@ -86,7 +86,7 @@ public class VerBonusView extends javax.swing.JInternalFrame {
 
         lblCargo.setText("cargo");
 
-        btnFechar.setText("Fechar");
+        btnFechar.setText("Voltar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

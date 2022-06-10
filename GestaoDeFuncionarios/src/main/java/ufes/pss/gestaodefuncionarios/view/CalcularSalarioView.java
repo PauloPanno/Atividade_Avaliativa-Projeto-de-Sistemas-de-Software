@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JInternalFrame.java to edit this template
  */
 package ufes.pss.gestaodefuncionarios.view;
-
+ 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFormattedTextField;
@@ -61,7 +61,7 @@ public class CalcularSalarioView extends javax.swing.JInternalFrame {
 
         btnCalcular.setText("Calcular");
 
-        btnFechar.setText("Fechar");
+        btnFechar.setText("Voltar");
 
         txtDataCalculo.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(java.text.DateFormat.getDateInstance(java.text.DateFormat.SHORT))));
 

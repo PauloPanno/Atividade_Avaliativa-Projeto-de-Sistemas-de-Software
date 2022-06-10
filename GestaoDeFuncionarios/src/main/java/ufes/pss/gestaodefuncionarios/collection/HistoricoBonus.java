@@ -3,7 +3,7 @@ package ufes.pss.gestaodefuncionarios.collection;
 import java.util.ArrayList;
 import ufes.pss.gestaodefuncionarios.model.Bonus;
 import ufes.pss.gestaodefuncionarios.model.BonusHistorico;
-
+ 
 public class HistoricoBonus {
     
     private ArrayList<BonusHistorico> historico;

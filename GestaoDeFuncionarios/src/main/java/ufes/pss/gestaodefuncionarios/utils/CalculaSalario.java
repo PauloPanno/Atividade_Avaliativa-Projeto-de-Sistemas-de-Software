@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import ufes.pss.gestaodefuncionarios.model.Bonus;
 import ufes.pss.gestaodefuncionarios.model.Funcionario;
-
+  
 public class CalculaSalario {
 
     public static void CalcularSalario(Funcionario funcionario, String dataCalculo) {
